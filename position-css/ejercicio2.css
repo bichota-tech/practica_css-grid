@@ -1,0 +1,50 @@
+body{
+    background-color: bisque;
+    margin: 0;
+    padding: 0;
+}
+    
+
+header{
+    position: fixed;
+    background-color: blueviolet;
+    width: 100%;
+    height: 100px;
+    top: 0;
+    z-index: 100;
+    
+}
+
+h1{
+    padding-top: 30px;
+    color: white;
+    text-align: center;
+    margin: 0;
+}
+
+div{
+    max-width: 600px;
+    text-align: justify;
+    margin-top: 50px;
+    padding: 20px;
+    color: white;
+    
+}
+
+.static{
+    position: static;
+    background-color: brown;
+    
+}
+
+.relative{
+    position: relative;
+    background-color: tomato;
+}
+
+.absolute{
+    position: absolute;
+    background-color: chocolate;
+    margin-right: 20px;
+    
+}

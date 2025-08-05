@@ -1,0 +1,42 @@
+h1{
+    text-align: center;
+    padding-top: 30px;
+}
+
+
+.displaybox1, .displaybox2, .displaybox3{
+    display: block;
+    border: 1px solid black;
+    background-color: rgb(7, 117, 190);
+    margin: 20px;
+    padding: 30px;
+    width: 80px;
+    height: auto;
+}
+
+.inline1, .inline2, .inline3{
+    display: inline-block;
+    border: 1px solid black;
+    background-color: rgb(7, 117, 190);
+    margin: 20px;
+    padding: 30px;
+    gap: 2px;
+    height: auto;
+}
+
+.flex {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: row;
+
+}
+
+.flex1, .flex2, .flex3{
+    border: 1px solid black;
+    background-color: rgb(7, 117, 190);
+    margin: 20px;
+    padding: 30px;
+    width: 80px;
+    height: auto;
+}
